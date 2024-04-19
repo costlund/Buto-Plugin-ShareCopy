@@ -1,0 +1,27 @@
+-
+  type: widget
+  data:
+    plugin: copy/clipboard
+    method: button
+    data:
+      id:  rs:id
+      text:
+        -
+          type: widget
+          data:
+            plugin: icons/bootstrap_v1_8_1
+            method: icon
+            data:
+              icon: copy
+        -
+          type: span
+          innerHTML: Copy
+-
+  type: div
+  attribute:
+    id: rs:id
+    style:
+      width: 1px
+      height: 1px
+      overflow: hidden
+  innerHTML: rs:u

@@ -1,0 +1,25 @@
+readme:
+  name: Buto-Plugin-ShareCopy
+  item:
+    -
+      name: Settings
+    -
+      name: Usage
+    -
+      name: Pages
+      item: {  }
+    -
+      name: Widgets
+      item:
+        -
+          name: widget_button_copy_page
+    -
+      name: Event
+      item: {  }
+    -
+      name: Construct
+      item:
+        -
+          name: __construct
+    -
+      name: Methods
