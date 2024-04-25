@@ -5,6 +5,7 @@
     method: button
     data:
       id:  rs:id
+      onclick: PluginPageJs_trigger.trigger('share_copy')
       text:
         -
           type: widget
