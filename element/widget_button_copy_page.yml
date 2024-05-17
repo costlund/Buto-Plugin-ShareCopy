@@ -16,6 +16,11 @@
               icon: copy
         -
           type: span
+          settings:
+            globals:
+              -
+                path_to_key: 'settings/plugin/i18n/translate_v1/settings/path'
+                value: '/plugin/share/copy/i18n'
           innerHTML: Copy
 -
   type: div
